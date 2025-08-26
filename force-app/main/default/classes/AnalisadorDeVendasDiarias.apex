@@ -5,8 +5,6 @@ Usando o que você sabe sobre as coleções do Apex, crie uma nova coleção que
 Imprima no console uma mensagem informando o número de produtos únicos vendidos.
 Imprima a coleção com os produtos únicos. */
 
-public class AnalisadorDeVendasDiarias {
-    public static void executar(){
         // Criar a lista de vendas do dia
         List<String> vendasDoDia = new List<String>();
         vendasDoDia.add('SKU-001');
@@ -17,5 +15,4 @@ public class AnalisadorDeVendasDiarias {
         vendasDoDia.add('SKU-001');
         // Imprimir o número de produtos únicos vendidos
         System.debug(vendasDoDia);
-    }
-}
+    

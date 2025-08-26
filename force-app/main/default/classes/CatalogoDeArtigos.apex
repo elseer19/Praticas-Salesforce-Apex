@@ -1,7 +1,6 @@
 // Exercicio 1: Criar um Catalogo de Artigos com Categorias e Posts
 // Objetivo: Organizar Artigos por Categoria
-public class CatalogoDeArtigos {
-     public static void executar(){
+
         // Criar uma Lista com Artigos Apex
         List<String> artigosApex = new List<String>();
         artigosApex.add('Apex 1');
@@ -23,6 +22,3 @@ public class CatalogoDeArtigos {
 
         // Mostrar no Console
         System.debug(todosPost);
-
-    }
-}
