@@ -9,11 +9,13 @@
     */
 public class DiretorioDeRamais {
     public static void executar(){
-
+        // Criar o mapa de departamentos e ramais
         Map<String, Integer> ramaisPorDepto = new Map<String, Integer>();
+        // Adicionar os departamentos e seus respectivos ramais
         ramaisPorDepto.put('Vendas', 1001);
         ramaisPorDepto.put('Suporte', 1002);
         ramaisPorDepto.put('Financeiro', 1003);
+        // Imprimir o ramal do departamento de Suporte
         System.debug(ramaisPorDepto.get('Suporte'));
         System.debug(ramaisPorDepto);
     }

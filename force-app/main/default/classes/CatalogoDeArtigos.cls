@@ -1,5 +1,5 @@
 // Exercicio 1: Criar um Catalogo de Artigos com Categorias e Posts
-// Objetivo: Utilizar Listas e Maps para organizar Artigos por Categoria
+// Objetivo: Organizar Artigos por Categoria
 public class CatalogoDeArtigos {
      public static void executar(){
         // Criar uma Lista com Artigos Apex
