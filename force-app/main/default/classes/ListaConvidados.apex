@@ -1,7 +1,6 @@
 // Exercicio 2: Criar uma Lista de Convidados para um Evento
 // Objetivo: Utilizar Set para garantir que não haja nomes duplicados
-public class ListaConvidados {
-    public static void executar(){
+
         // Criar uma Lista com os nomes dos convidados
         Set<String> convidadosConfirmados = new Set<String>();
         convidadosConfirmados.add('Ana');
@@ -13,6 +12,3 @@ public class ListaConvidados {
         System.debug('O Número total de convidados é: ' + convidadosConfirmados.size());
         System.debug('Bruno está na lista? ' + convidadosConfirmados.contains('Bruno'));
         System.debug(convidadosConfirmados + 'Convidados Confirmados');
-
-    }
-}

@@ -1,7 +1,6 @@
 // Exercicio 3: Lista de Compras
 // Objetivo: Utilizar Listas para gerenciar itens de compra
-public class ListaCompras {
-    public static void executar(){
+
         // Criar uma Lista para armazenar os itens de compra
         List<String> listaDeCompras = new List<String>();
 
@@ -15,6 +14,3 @@ public class ListaCompras {
         System.debug('Eu preciso comprar ' + listaDeCompras.size() + ' itens.');
         System.debug('O segundo item da lista é: ' + listaDeCompras.get(1));
         System.debug('Minha lista de compras completa: ' + listaDeCompras);
-
-    }
-}

@@ -8,8 +8,6 @@ Verifique se existe uma configuração para 'Cache' e imprima o resultado (true 
 Crie uma coleção que contenha apenas os nomes de todas as configurações (as chaves) e imprima-a.
 Crie uma coleção que contenha apenas os valores de todas as configurações e imprima-a. */
 
-public class GerenciadorDeConfiguracoes {
-    public static void executar(){
         // Mapa de Configurações
         Map<String,String> configuracoes = new Map<String,String>();
         configuracoes.put('ModoDebug',  'Ativado');
@@ -28,5 +26,3 @@ public class GerenciadorDeConfiguracoes {
         configStataus = configuracoes.values();
         System.debug(configStataus);
  
-    }
-}

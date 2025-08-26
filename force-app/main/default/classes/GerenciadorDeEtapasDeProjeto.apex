@@ -6,8 +6,7 @@ A gerência decidiu que a etapa de 'Codificação' não é mais necessária nest
 Para facilitar a visualização, ordene a lista de etapas restantes em ordem alfabética.
 Imprima a lista final e modificada no console.
 */
-public class GerenciadorDeEtapasDeProjeto {
-    public static void executar(){
+
         // Criar a lista de etapas do projeto
         List<String> etapasProjeto = new List<String>();
         // Adicionar as etapas na ordem especificada
@@ -24,7 +23,3 @@ public class GerenciadorDeEtapasDeProjeto {
         etapasProjeto.sort();
         // Imprimir a lista final no console
         System.debug(etapasProjeto);   
-   
-    }
-
-}

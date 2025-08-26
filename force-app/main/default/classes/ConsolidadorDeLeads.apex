@@ -6,8 +6,7 @@ Combine todos os emails dos dois primeiros conjuntos (leadsDaManha e leadsDaTard
 Imprima o número total de emails únicos na campanha final.
 Imprima o conjunto campanhaFinal. */
 
-public class ConsolidadorDeLeads {
-    public static void executar(){
+
         // Conjunto de leads da manhã
         Set<String> leadsDaManha = new Set<String>();
         leadsDaManha.add('ana@email.com');
@@ -22,5 +21,3 @@ public class ConsolidadorDeLeads {
         campanhaFinal.addAll(leadsDaTarde);
         // Imprimir resultados
         System.debug(campanhaFinal.size() + ' Emails para Campanha: ' + campanhaFinal);
-    }
-}

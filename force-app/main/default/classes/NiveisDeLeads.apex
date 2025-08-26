@@ -2,8 +2,6 @@
 // Objetivo: Classificar leads em diferentes níveis.
 /* Você precisa criar uma lógica simples para classificar um Lead como "Quente" ou "Frio" com base em alguns critérios. Lead é considerado "Quente" se a empresa tiver mais de 50 funcionários e possuir um website. Caso contrário, o Lead é considerado "Frio". */
 
-public class NiveisDeLeads {
-    public static void executar(){
         // Dados do Lead
         Integer numeroDeFuncionarios = 80;
         Boolean possuiWebsite = true;
@@ -12,6 +10,3 @@ public class NiveisDeLeads {
         classificacao = ((numeroDeFuncionarios > 50) && (possuiWebsite == true)) ? 'Lead Quente' : 'Lead Frio';
         // Imprimir classificação
         System.debug(classificacao);
-
-    }
-}

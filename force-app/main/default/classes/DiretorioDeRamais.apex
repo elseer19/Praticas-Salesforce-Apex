@@ -7,8 +7,7 @@
     Busque e imprima no console apenas o ramal do departamento de "Suporte".
     Imprima o mapa completo para ver todos os departamentos e seus ramais.
     */
-public class DiretorioDeRamais {
-    public static void executar(){
+
         // Criar o mapa de departamentos e ramais
         Map<String, Integer> ramaisPorDepto = new Map<String, Integer>();
         // Adicionar os departamentos e seus respectivos ramais
@@ -18,5 +17,3 @@ public class DiretorioDeRamais {
         // Imprimir o ramal do departamento de Suporte
         System.debug(ramaisPorDepto.get('Suporte'));
         System.debug(ramaisPorDepto);
-    }
-}
